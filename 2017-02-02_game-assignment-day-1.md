@@ -1,7 +1,7 @@
 > game-assignment-day-1
 > Game Assignment: Project Structure & Networking Considerations
 > 2 Feb 2017
-> gamedev, university, gamedev-assignment
+> gamedev, university, gamedev-assignment, programming, networking
 ---
 Like any old programming project, we have to start from actually...making a project! Now, because Unnamed will be an online game, we'll need more than one project. There are three projects in total:
 
