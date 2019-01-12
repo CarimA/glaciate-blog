@@ -17,6 +17,6 @@ I also rewrote the archive page, now displaying only the information it needs to
  
 Finally, there are just a few more design tweaks dotted about here and there just to make the visual consistency better. I think I'm mostly done with the design, take a look for yourself:
 
-[![](/images/977705a097b24cfe8df781c9a8dac1b4.jpg/thumb)](/images/977705a097b24cfe8df781c9a8dac1b4.jpg)
+[![](/images/thumbs/977705a097b24cfe8df781c9a8dac1b4.jpg)](/images/977705a097b24cfe8df781c9a8dac1b4.jpg)
 
 **gamedev:** I'm really close to showing what I've got! Just doing some final image collation and writeups just to make things interesting from the get-go. At the moment, I'm doing some project refactoring which is allowing me to go through everything and write up about what's going on under-the-hood which will make for some interesting articles later on.
