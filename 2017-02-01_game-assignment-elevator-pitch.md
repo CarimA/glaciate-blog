@@ -32,7 +32,7 @@ While Unnamed is pretty heavily inspired by Animal Crossing the unique selling p
 
 # Asset Consideration & Programming
 
-[![](/images/a1da6d5b953c4252a3cc3a4187c70df1.png/thumb)](/images/a1da6d5b953c4252a3cc3a4187c70df1.png)
+[![](/images/thumbs/a1da6d5b953c4252a3cc3a4187c70df1.png)](/images/a1da6d5b953c4252a3cc3a4187c70df1.png)
 
 Unnamed will be in 2D. I started on a sprite for the fun of it and came to the above palette of 32 colours (that I refined from 54 colours!) which offers a good mix of the brown/green colours I needed. 
 
