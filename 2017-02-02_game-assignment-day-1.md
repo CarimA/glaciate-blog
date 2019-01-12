@@ -9,7 +9,7 @@ Like any old programming project, we have to start from actually...making a proj
 2. The server: the thing that the game logic will actually run on, alongside storing player data and islands.
 3. The core: functionality that is shared between the client/server and can function interoperably so a client with different specifications could possibly be made at any time.
 
-[![](/images/1cc8a6f46dfe4b9685aae166af0ab7cd.png/thumb)](/images/1cc8a6f46dfe4b9685aae166af0ab7cd.png)
+[![](/images/thumbs/1cc8a6f46dfe4b9685aae166af0ab7cd.png)](/images/1cc8a6f46dfe4b9685aae166af0ab7cd.png)
 
 *You can see that some stuff is done already: I write these things at the _end_ of the day, you know!*
 
@@ -22,7 +22,7 @@ The server is just a standard console application and the core will just be a li
 
 For networking, I've opted to use Fleck: a Websocket server library. The main reasoning was to keep it open-ended so I could potentially make a client with Javascript/WebGL at some point. For my first task, I spent about 20 minutes just abstracting some features that I appreciate from socket.io; rooms. Because there will be multiple independant islands, keeping it as manageable as possible to separate data is a worthwhile time investment.
 
-[![](/images/997d648384e640b3bc8fc6386904bb20.png/thumb)](/images/997d648384e640b3bc8fc6386904bb20.png)
+[![](/images/thumbs/997d648384e640b3bc8fc6386904bb20.png)](/images/997d648384e640b3bc8fc6386904bb20.png)
 
 *The rooms hold a reference list to all sockets and provide an event for sockets joining/leaving. This also allows me to easily implement chatrooms or additional instanced functionality later on.*
 
