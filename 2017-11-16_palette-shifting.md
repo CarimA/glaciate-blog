@@ -52,19 +52,19 @@ Right off the bat, there are a few problems; first we'd need to represent 3 dime
 
 Now there's another problem. If we try to represent red/green/blue as-is, we'd be needing a 256 x 256 x 256 space; a total of 16,777,216 pixels to represent each possible colour. We'd need a 4096 x 4096 px image to represent this, and I did exactly that.
 
-[![](/images/bb84294bc7e74f1cbc439d61e575a516.png/thumb)](/images/bb84294bc7e74f1cbc439d61e575a516.png)
+[![](/images/thumbs/bb84294bc7e74f1cbc439d61e575a516.png)](/images/bb84294bc7e74f1cbc439d61e575a516.png)
 
 Now, modern computers would probably sniff at something like this...but I did want this solution to work efficiently on mobile too. Need something a _bit_ less heftier than that.
 
 To solve that, I used a 64 x 64 x 64 space and mapped each colour from 0 - 255 to 0 - 63. This requires a total of 262,144 pixels to represent each colour: 64 times less than the original texture, and quite handily represented in a 512 x 512 px image.
 
-[![](/images/770c903899f84aacb50c56c226e2e4d8.png/thumb)](/images/770c903899f84aacb50c56c226e2e4d8.png)
+[![](/images/thumbs/770c903899f84aacb50c56c226e2e4d8.png)](/images/770c903899f84aacb50c56c226e2e4d8.png)
 
 Of course, this is no longer a perfect solution: we now lose a bit of precision but I've decided that the amount we'd lose is so minimal that I can choose to not care.
 
 Now that we have a texture, I can pass it through Photoshop, apply colour indexing and let it do the job for me.
 
-[![](/images/ed254d9fe9f6492fb7f92644f4255304.png/thumb)](/images/ed254d9fe9f6492fb7f92644f4255304.png)
+[![](/images/thumbs/ed254d9fe9f6492fb7f92644f4255304.png)](/images/ed254d9fe9f6492fb7f92644f4255304.png)
 
 I've used the DawnBringer 32 palette here. I think it has good and accurate representation for each possible colour.
 
