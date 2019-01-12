@@ -143,7 +143,7 @@ We will also store the current player position and current player texture here.
 
 Not shown are a bunch of `Texture2D`s that hold each texture; refer to the .zip demo available at the end of the article.
 
-[![](/images/05e370ef100f40268deb04a598ea7657.png/thumb)](/images/05e370ef100f40268deb04a598ea7657.png)
+[![](/images/thumbs/05e370ef100f40268deb04a598ea7657.png)](/images/05e370ef100f40268deb04a598ea7657.png)
 
 For this prototype, we'll have players standing, walking and jumping (and by extension, we'll need a state for falling). Within Initialize, we can add
 
