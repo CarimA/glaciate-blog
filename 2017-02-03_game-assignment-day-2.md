@@ -21,7 +21,7 @@ It has a nice license: free-to-use until you make a certain amount of money (tha
 
 The only real issue is that it hasn't seen an update in a while and the developers have dropped off the face of the Earth, but it provides the features I need and is seemingly bug free. It's a teeny bit slow to load too, but that was pretty easily fixed by `body { opacity: 0; -webkit-transition: opacity 2s; }` and `<body onload="document.body.style.opacity='1'">` just fade it in nicely when it does load and the user is none-the-wiser.
 
-[![](/images/5eb15d0e0d48427e9c2ab049e7ccffee.png/thumb)](/images/5eb15d0e0d48427e9c2ab049e7ccffee.png)
+[![](/images/thumbs/5eb15d0e0d48427e9c2ab049e7ccffee.png)](/images/5eb15d0e0d48427e9c2ab049e7ccffee.png)
 *Looking pretty good! The CSS behaved nicely!*
 
 Right now, that's a login screen being rendered in MonoGame and the various transition/animation effects I tried ran consistently at 60 frames per second, so I have no reason to believe that it would be an issue later on. I've finally found a nice middle ground!
