@@ -5,10 +5,12 @@ Repository for the blog posts for https://www.glaciate.net
 Each post is structured as
 
 ```
-> slug game-assignment-elevator-pitch
-> title Game Assignment: Elevator Pitch
-> date 1 Feb 2017
-> tags gamedev, university, gamedev-assignment
+---
+title: Game Assignment: Elevator Pitch
+author: Carim A
+date: 1 Feb 2017
+slug: game-assignment-elevator-pitch
+tags: gamedev, university, gamedev-assignment
 ---
 {blog post}
 ```
@@ -25,7 +27,3 @@ The metadata section is parsed and removed from the final rendered blog post and
 
 # Possible Future (Re)Additions
 **sail image**: makes things look pretty? Need to source a load of images first before considering reimplementing this.
-
-**author**: should others ever want/need to post, this might be needed as metadata
-
-???
